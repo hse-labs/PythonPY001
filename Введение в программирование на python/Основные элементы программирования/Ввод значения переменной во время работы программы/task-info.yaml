@@ -1,0 +1,14 @@
+type: theory
+files:
+- name: __init__.py
+  visible: false
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 7
+    length: 28
+    placeholder_text: 'input()  # TODO добавьте вспомогательное сообщение в
+      input'
+  - offset: 59
+    length: 59
+    placeholder_text: '# TODO распечатайте тип переменной name'

@@ -1,0 +1,14 @@
+type: output
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 0
+    length: 420
+    placeholder_text: '# TODO Распечатайте два слова Hello и World на отдельных строках'
+- name: __init__.py
+  visible: false
+- name: tests/output.txt
+  visible: false
+- name: img.png
+  visible: false

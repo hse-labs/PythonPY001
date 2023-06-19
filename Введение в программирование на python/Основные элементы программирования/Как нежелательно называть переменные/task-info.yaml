@@ -1,0 +1,15 @@
+type: output
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 53
+    length: 15
+    placeholder_text: 'print = "test"  # TODO исправить название переменной, чтобы
+      команда print продолжила работу'
+- name: __init__.py
+  visible: false
+- name: tests/output.txt
+  visible: false
+- name: img.png
+  visible: false

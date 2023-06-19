@@ -1,0 +1,24 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: 1
+  is_correct: false
+- text: 2
+  is_correct: false
+- text: 3
+  is_correct: true
+message_correct: В этом примере смешались отступы разной длины. Интерпретатор python
+  не может понять на какое количество пробелов ему ориентироваться. В таком коде даже
+  визуально сложно провести границы.
+message_incorrect: Этот вариант, не содержит ошибки. Один отступ не обязательно должен
+  быть равен 4 пробелам, это рекомендация всего лишь рекомендация. Но которой настоятельно
+  следует придерживаться.
+files:
+- name: main.py
+  visible: true
+- name: __init__.py
+  visible: false
+- name: img.png
+  visible: false
+- name: img_1.png
+  visible: false

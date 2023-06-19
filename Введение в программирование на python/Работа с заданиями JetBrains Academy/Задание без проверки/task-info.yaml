@@ -1,0 +1,10 @@
+type: theory
+files:
+- name: __init__.py
+  visible: false
+- name: img.png
+  visible: false
+- name: img_2.png
+  visible: false
+- name: main.py
+  visible: true

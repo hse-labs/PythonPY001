@@ -1,0 +1,16 @@
+type: edu
+files:
+- name: task.py
+  visible: true
+  placeholders:
+  - offset: 53
+    length: 24
+    placeholder_text: 'False = "Hello, World!"  # TODO исправьте название переменной'
+- name: tests/test_task.py
+  visible: false
+- name: __init__.py
+  visible: false
+- name: tests/__init__.py
+  visible: false
+- name: img.png
+  visible: false

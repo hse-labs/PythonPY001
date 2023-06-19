@@ -1,0 +1,20 @@
+type: edu
+files:
+- name: task.py
+  visible: true
+  placeholders:
+  - offset: 107
+    length: 56
+    placeholder_text: '# TODO Запишите количество секунд в одном дне'
+  - offset: 338
+    length: 82
+    placeholder_text: '# TODO Посчитайте количество секунд в десяти днях'
+  - offset: 565
+    length: 68
+    placeholder_text: '# TODO Распечатайте количество секунд в десяти днях'
+- name: tests/test_task.py
+  visible: false
+- name: __init__.py
+  visible: false
+- name: tests/__init__.py
+  visible: false
